@@ -98,14 +98,14 @@ header {
 .left {
     top: 400px;
     bottom: 400px;
-    left: 100px;
+    right: 50%;
     background-color: #111;
 }
 
 .right {
     top: 400px;
     bottom: 400px;
-    right: 100px;
+    left: 50%;
     background-color: red;
 }
 
@@ -120,4 +120,10 @@ header {
 .centered img {
     width: 150px;
     border-radius: 50%;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
 }
